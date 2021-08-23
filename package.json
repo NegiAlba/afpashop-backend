@@ -2,7 +2,7 @@
   "name": "afpashop-backend",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "A Strapi backend for a shop built with Next, Magic, Stripe and Strapi",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -28,14 +28,14 @@
     "strapi-utils": "3.6.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Axel Gromat"
   },
   "strapi": {
     "uuid": "63cf3715-83e5-4d1e-a708-0e2d84340270"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
+    "node": "14.17.5",
+    "npm": "7.19.0"
   },
   "license": "MIT"
 }

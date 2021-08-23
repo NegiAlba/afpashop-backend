@@ -68,7 +68,7 @@ Dans un fichier .env à la racine, nous ajouterons l'ensemble de ces variables a
 
 ## Authentification avec Magic
 
-Magic étant un service externe, il faudra aussi configurer les requêtes à l'aide de son outil. Pour cela on récupèrera le fichier de permissions de base [disponible ici] (https://github.com/strapi/strapi/blob/master/packages/strapi-plugin-users-permissions/config/policies/permissions.js)
+Magic étant un service externe, il faudra aussi configurer les requêtes à l'aide de son outil. Pour cela on récupèrera le fichier de permissions de base [disponible ici](https://github.com/strapi/strapi/blob/master/packages/strapi-plugin-users-permissions/config/policies/permissions.js)
 
 Remplacer la ligne 26 avec une nouvelle instruction qui permettra de contenir l'authentification avec Magic.
 
